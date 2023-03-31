@@ -1,0 +1,30 @@
+-var title = "Título Principal"
+-var titles =  ["Título Principal", "Subtítulo 1", "Subtítulo 2", "Subtítulo3"]
+
+doctype html
+html 
+    head
+        meta(charset="UTF-8")
+        link(rel="stylesheet", href="css/style-pug.css")
+    body
+        header 
+            h1 ManchiGames 
+            a.boton Registro 
+        section.intro 
+            .intro__imagen: img(src="/img/img-vacia.jpg")
+            .intro__contenido 
+                h2 #{titles[0]}
+                p
+                    | Lorem ipsum dolor sit amet 
+                    | consectetur, adipisicing 
+                    | elit. Delectus ut reiciendis 
+                    | esse recusandae qui voluptas 
+                    | dolor impedit quam, ratione 
+                    | cum provident, itaque odio 
+                    | similique aut sint! Nemo in 
+                    | iusto labore?
+                    span 
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing 
+                        | elit, sed do eiusmod tempor 
+                        | incididunt ut labore et dolore magna aliqua.
+                a.boton Leer más
